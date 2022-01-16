@@ -1,0 +1,698 @@
+starting log
+
+
+  1 Training on 216 replay instances...
+Setting threshold to 0.050000
+Policy gradient...
+Loss: 17.626912
+Reward: 1.000000
+Trajectories with max counts:
+2	N=C(N)NN=Cc1ccc(O)c(O)c1
+Mean value of predictions: 0.00090127
+Proportion of valid SMILES: 0.7664050235478806
+Sample trajectories:
+Brc1cccc(Nc2nc(COc3ccccc3)nc(Nc3cccnc3)n2)c1
+Brc1cncc(-c2ccc3ncc(-c4ccccc4)nc3c2)n1
+C#CC=CC[N+](C)(C)CC(=O)O
+C#CCCCCCCCCCC(C)(C)c1nc(CNC(=O)c2ccc(COc3ccc(N4CCOCC4)c(C)c3)o2)c(C(=O)O)o1
+C#CCCCCNc1nc(SCC(C)(N)CO)nc(N2CCCC2C)n1
+Policy gradient replay...
+Mean value of predictions: 0.019399052
+Proportion of valid SMILES: 0.5954174513496547
+Sample trajectories:
+BP(=O)(NC(=O)c1ccc(Nc2nc(N)c(N)nc2C(=O)C=Cc2ccc(O)c(O)c2)cc1)OCCCCCCCCCC
+BP(=O)(Oc1cc(Cl)cc(F)c1F)N1CCN(c2ncnc3[nH]nc(N)c23)CC1
+Brc1c2c3nc(c4ccc5c(c3c1ncnc(c1nc3cc(-c6cc7cccnc7[nH]6)c3s1)N5)OCCCO4)CCCC2
+Brc1ccc(-c2ncnn2-c2ccccn2)c(-c2nc(-c3cccc4ncnc(NCC5CC5)c34)c[nH]2)c1
+Brc1ccc(Cn2cncn2)nc1
+Fine tuning...
+Mean value of predictions: 0.02957043
+Proportion of valid SMILES: 0.6268002504696305
+Sample trajectories:
+BP(=O)(CCC(O)NP(=O)(ON)OP(=O)(O)OCCl)Nc1cccnc1
+Bc1ccc(NS(=O)(=O)c2cc(C(=O)N3CCCC3)c3cccnc3c2C#N)cc1
+Brc1cc2ncnc(-c3ccccc3)c2cn1
+Brc1ccc(N2CCN3CC(C2)C(c2cc(Br)ccn2)C3)nc1
+Brc1ccc(N=Nc2cc(Br)ccn2)cc1
+
+  2 Training on 373 replay instances...
+Setting threshold to 0.050000
+Policy gradient...
+Loss: 19.055327
+Reward: 1.131533
+Trajectories with max counts:
+4	Nc1ncnc2c1ncn2C(F)(F)F
+Mean value of predictions: 0.03239437
+Proportion of valid SMILES: 0.6224170319348779
+Sample trajectories:
+Brc1cc(I)cc(I)c1Br
+Brc1ccc(Br)s1
+Brc1ccc(C2CCCN2)cc1
+Brc1ccc(Cn2cncn2)cc1
+Brc1ccc(Nc2nc(-c3ccncc3)nc3ccccc23)cc1
+Policy gradient replay...
+Mean value of predictions: 0.034842018
+Proportion of valid SMILES: 0.731875
+Sample trajectories:
+BP(=O)(NOC(c1ccccc1)C(F)F)P(=O)(OCOC(=O)c1ccccc1)Oc1ccccc1
+BP(=O)(OCC1OC(N2C=C(C=CBr)C(=O)NC2=O)C(O)C1O)OP(=O)(O)O
+Brc1ccc(-c2ccc3ncccc3c2)cc1
+Brc1ccc(Nc2nc3ccccc3nc2-c2ccccc2)cc1
+Brc1ccc(Nc2ncnc3ccccc23)cc1
+Fine tuning...
+Mean value of predictions: 0.06444662
+Proportion of valid SMILES: 0.6391236306729264
+Sample trajectories:
+BP(=O)(NN=Cc1cccs1)N1CCN(C(=O)c2ccc3cccnc3c2)CC1
+Brc1ccc(-c2ccc(Nc3ncnc4c5ccccc5c34)o2)o1
+Brc1ccc(C2=NN=C(c3ccccc3)Nc3nnn(c4ccccc4)c(Br)cc32)cc1
+Brc1ccc(Nc2cc(Br)nc3ccccc23)cc1
+Brc1ccc(Nc2cc3nc(-c4ccccn4)c3cn2)cc1
+
+  3 Training on 780 replay instances...
+Setting threshold to 0.050000
+Policy gradient...
+Loss: 19.082443
+Reward: 1.243661
+Trajectories with max counts:
+10	COc1ccc(Nc2ncnc3ccccc23)cc1
+Mean value of predictions: 0.05952798
+Proportion of valid SMILES: 0.7154471544715447
+Sample trajectories:
+Brc1cc2ncnc(n1)Nc1cccc(c1)CNc1ccccc12
+Brc1ccc(-c2nc3cc(N4CCCC4OCCOCCNCc4ccccn4)ccc3s2)o1
+Brc1ccc(N=Cc2cccnc2)s1
+Brc1ccc(Nc2ccc3ncncc3c3cc2c2cc3ncn2)cc1
+Brc1ccc(Nc2ccncc2Br)cc1
+Policy gradient replay...
+Mean value of predictions: 0.09636622
+Proportion of valid SMILES: 0.6623944982807127
+Sample trajectories:
+BP(=O)(CCc1ccc2ccccc2c1)OCCS(=O)(=O)Nc1ccc(Br)cc1
+BP(=O)(NC(Cc1cccc(Br)c1)C(=O)Oc1ccccc1)c1ccccc1
+Bc1ccc(Nc2ccccc2Sc2ccccc2)cc1
+Bc1ccccc1Nc1ncnc2c(Cl)cccc12
+Brc1cc2[nH]cnc2c2ccccc12
+Fine tuning...
+Mean value of predictions: 0.11846825
+Proportion of valid SMILES: 0.6448890278211942
+Sample trajectories:
+BrCC#CCc1ccco1
+Brc1cc(Nc2ncc3cc(Br)ccc3n2)nc(-c2ccc3c(c2)OCO3)c1
+Brc1ccc(-c2ncnc3cccc(Br)c23)cc1
+Brc1ccc(-n2cnnc2Nc2cccc(Br)n2)cc1
+Brc1ccc(-n2ncc3c(N4CCCC4)ncnc32)s1
+
+  4 Training on 1595 replay instances...
+Setting threshold to 0.100000
+Policy gradient...
+Loss: 20.592642
+Reward: 1.645026
+Trajectories with max counts:
+65	Fc1ccc(Nc2ncnc3ccccc23)cc1
+Mean value of predictions: 0.18632102
+Proportion of valid SMILES: 0.5667396061269147
+Sample trajectories:
+Brc1ccc(CNc2cc(N3CCCCC3)ncn2)cc1
+Brc1ccc(NN=C2CCCCC2)cc1
+Brc1ccc(NN=Cc2ccccc2)cc1
+Brc1ccc(NN=Cc2ccncc2)cc1
+Brc1ccc(NNc2ncnc3cc(Br)ccc23)cc1
+Policy gradient replay...
+Mean value of predictions: 0.08046774
+Proportion of valid SMILES: 0.7217880587683652
+Sample trajectories:
+BP(=O)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)OP(=O)(O)O
+BrCC1CCCN(CCCNc2cccc3ccccc23)CC1
+Brc1[nH]ccc1-c1cc(Nc2ncnc3ccccc23)cc2ccccc12
+Brc1ccc(-c2nccnc2Cc2ccccc2)c(Nc2ncccc2Sc2ccccc2)n1
+Brc1ccc(Br)c(Nc2cccc3ncnc(Nc4ccccc4)c23)c1
+Fine tuning...
+Mean value of predictions: 0.19081481
+Proportion of valid SMILES: 0.6330103157236636
+Sample trajectories:
+BP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O
+BP(=O)(OCC)c1ncnc2ccc3c(Cl)cccc3c12
+Brc1cc(Br)c2ncnc(Nc3ccccc3)c2c1
+Brc1cc(Nc2ncnc3ccsc23)ccc1-c1cnc2ncncc2c1
+Brc1cc2ncnc(Nc3ccccc3)c2cc1Br
+
+  5 Training on 2833 replay instances...
+Setting threshold to 0.200000
+Policy gradient...
+Loss: 23.909184
+Reward: 2.272657
+Trajectories with max counts:
+53	Clc1ccc2ncnc(Nc3ccccc3)c2c1
+Mean value of predictions: 0.23173515
+Proportion of valid SMILES: 0.5475
+Sample trajectories:
+BP(=O)(NC(CCCCN)CS(=O)(=O)c1ccc2ccccc2n1)C(=O)Nc1ccc2ncnc(Nc3ccccc3)c2c1
+Brc1cc2c(c1)nc1cc(Br)ccc1nccc(N1CCCC1)N2
+Brc1cc2ncnc(Nc3ccccc3)c2c(Br)c1Br
+Brc1cc2ncnc(Nc3ccccc3)c2cc1-c1ccccc1
+Brc1cc2ncnc(Nc3ccccc3)c2cc1Br
+Policy gradient replay...
+Mean value of predictions: 0.26253313
+Proportion of valid SMILES: 0.5898718349484214
+Sample trajectories:
+BP(=O)(CC)c1cc2ccc(Nc3ccc(Br)cc3)cn2n1
+BP(=O)(OCC)OC(=O)CN(C(=O)c1ccc2ncnc(-c3ccc(F)c(F)c3)c2c1)c1ccnc(Nc2ncnc(Nc3cccc(Cl)c3)n2)n1
+Brc1cc(Br)c(Nc2ncnc3ncnc(Nc4ccccc4Br)c23)cc1Br
+Brc1cc2c3sccc3nN(Cc3ccccc3)CCn(C(CNc3cccnc3)c3cccnc3)c2ncn1
+Brc1cc2ncnc(Nc3ccccc3)c2cc1-c1ccnc2ccsc12
+Fine tuning...
+Mean value of predictions: 0.19538616
+Proportion of valid SMILES: 0.623319787433573
+Sample trajectories:
+Bc1ccccc1Nc1ncnc2ccc(Br)cc12
+BrC#CCNc1ncnc2ncnc(Nc3ccccc3)c12
+Brc1cc(Br)c2ncnc(Nc3ccccc3)c2c1
+Brc1cc2ncnc(Nc3ccccc3)c2s1
+Brc1ccc(-c2cc3ncnc(-c4ccccc4)c3s2)cc1
+
+  6 Training on 4373 replay instances...
+Setting threshold to 0.350000
+Policy gradient...
+Loss: 23.101298
+Reward: 2.218380
+Trajectories with max counts:
+46	Fc1ccc(Nc2ncnc3ccccc23)cc1
+Mean value of predictions: 0.281682
+Proportion of valid SMILES: 0.5425
+Sample trajectories:
+BP(=O)(NC(CCCNc1cccc(Br)c1)c1ccc(Br)cc1)P(=O)(OC)OCC
+BP(=O)(NCCCN)Nc1cc(Nc2ccc(F)cc2)ncn1
+BP(=O)(NS(=O)(=O)c1ccc(Br)cc1)OCCC(F)(F)F
+BP(=O)(Nc1cc(Cl)ccc1N(=O)=O)C(=O)OC(Cl)(Cl)P(=O)(O)O
+B[PH](=O)(Nc1ccc(Br)cc1)(Nc1ccc(Br)cc1)C(=O)Oc1ccc(Br)cc1
+Policy gradient replay...
+Mean value of predictions: 0.29876682
+Proportion of valid SMILES: 0.5585472761427677
+Sample trajectories:
+BP(=O)(CN)NC(=O)OCCCCCCCF
+Brc1cc(Br)c2c(c1)NCCCO2
+Brc1cc(Br)cc(Nc2ncnc3cc(Br)c(Br)cc23)c1
+Brc1cc(Br)cc(Nc2ncnc3ccc(Br)cc23)c1
+Brc1cc2ncnc(Nc3ccsc3)c2cc1Br
+Fine tuning...
+Mean value of predictions: 0.24246864
+Proportion of valid SMILES: 0.5976867771178493
+Sample trajectories:
+BP(=O)(CCO)NC(=O)c1cc(Br)cc(Br)c1O
+BP(=O)(Nc1ccccc1Br)c1ccccc1
+B[PH](=O)(C=O)(N=C=S)OCC
+Bc1cc2ncnc(Nc3ccccc3)c2cc1Br
+BrC#CCOc1ccc2ncnc(Nc3ccccc3)c2c1
+
+  7 Training on 5975 replay instances...
+Setting threshold to 0.500000
+Policy gradient...
+Loss: 24.322508
+Reward: 2.970685
+Trajectories with max counts:
+242	Brc1ccc(Nc2ncnc3ccc(Br)cc23)cc1
+Mean value of predictions: 0.37220392
+Proportion of valid SMILES: 0.3802376485303315
+Sample trajectories:
+BP(=O)(COP(=O)(O)c1ccc(F)cc1)OCCO
+BP(=O)(Cc1ccc(Br)cc1)N(CC(=O)Nc1ccc(Br)cc1)c1ccc(Br)cc1
+BP(=O)(NC(=O)c1ccc2c(c1)CC(N(O)S(=O)(=O)c1ccc(N)cc1)O2)P(=O)(O)O
+BP(=O)(NO)C(=O)c1ccccc1
+BP(=O)(NO)c1ccccc1
+Policy gradient replay...
+Mean value of predictions: 0.35936156
+Proportion of valid SMILES: 0.5106583072100314
+Sample trajectories:
+BP(=O)(OCC=C)P(=O)(O)OP(=O)(O)OP(=O)(O)O
+Bc1cc(Br)c(Nc2ncnc3cc(Br)ccc23)cc1Br
+BrCc1ccc(Nc2ncnc3[nH]cnc23)cc1
+Brc1[nH]c2c(c1Br)Nc1ccc(OCCCN3CCOCC3)cc12
+Brc1cc(Br)c(Br)c(Br)c1Br
+Fine tuning...
+Mean value of predictions: 0.32985476
+Proportion of valid SMILES: 0.5814826399749765
+Sample trajectories:
+BP(=O)(OCC)OCCC
+Br
+Brc1cc(Br)c2c(Nc3ccc(Br)c(Br)c3)ncnc2c1
+Brc1cc(Br)c2c(Nc3ccc(Br)s3)ncnc2c1
+Brc1cc(Br)cc(Nc2ccc(Br)c(Br)c2)c1
+
+  8 Training on 7672 replay instances...
+Setting threshold to 0.650000
+Policy gradient...
+Loss: 24.401841
+Reward: 3.197916
+Trajectories with max counts:
+100	Brc1ccc(Nc2ncnc3ccccc23)cc1
+Mean value of predictions: 0.29903537
+Proportion of valid SMILES: 0.4859375
+Sample trajectories:
+BP(=O)(OC(Br)=C(Br)Br)C(=O)Nc1cc(Br)ccc1Br
+BP(=O)(OC)OCC
+BP(=O)(OCCBr)OCC(=O)Nc1ncc(Br)c(Nc2ncnc3ccccc23)n1
+BP(=O)(c1cccc(F)c1)N(CCC(F)(F)F)c1ccccc1
+BP1(=O)OCC(COc2ccc(Br)cc2I)Oc2ccccc21
+Policy gradient replay...
+Mean value of predictions: 0.357957
+Proportion of valid SMILES: 0.5819774718397998
+Sample trajectories:
+BP(=O)(Oc1ccccc1F)P(=O)(O)O
+Brc1cc(Br)c(Oc2ccccc2COc2ccccc2Br)c(Br)c1
+Brc1cc(Br)c2c(Oc3ccc(Br)c(Br)c3)ncnc2c1
+Brc1cc(Br)cc(Nc2ncnc3ccc(Br)cc23)c1
+Brc1cc(Br)cc(Nc2ncnc3ccc(Br)cc3s2)c1
+Fine tuning...
+Mean value of predictions: 0.33166406
+Proportion of valid SMILES: 0.5992497655517349
+Sample trajectories:
+BP(=O)(Br)Oc1ccc(Br)cc1Br
+BP(=O)(O)c1ccc(Nc2ncnc(N)c2-c2ccc(Br)cc2Br)cc1
+BrC=CBr
+Brc1cc(Br)c(Nc2ncnc3ccsc23)cn1
+Brc1cc2ncnc(Nc3cccc4ccccc34)c2cc1Br
+
+  9 Training on 9366 replay instances...
+Setting threshold to 0.800000
+Policy gradient...
+Loss: 28.281188
+Reward: 4.199104
+Trajectories with max counts:
+55	Brc1ccc(Nc2ncnc3ccc(Br)cc23)cc1
+Mean value of predictions: 0.43693522
+Proportion of valid SMILES: 0.4776352830778855
+Sample trajectories:
+BP(=O)(CS(=O)(=O)Oc1ccc(P(F)(F)(F)P(=O)(O)O)c(Br)c1)NO
+BP(=O)(NC(=O)OCCSc1nc2cncnc2s1)OC(Br)Br
+B[PH](=O)(=O)c1ccc(Nc2ncnc3cc(Br)c(Br)c(Br)c23)s1
+Bc1cc(Br)c(Br)c(Br)c1Br
+BrCN1C(=Nc2ccc(Br)cc2)c2c(Nc3ccc(Br)cc3Br)ncnc2c2ncsc21
+Policy gradient replay...
+Mean value of predictions: 0.40283465
+Proportion of valid SMILES: 0.5958711291836096
+Sample trajectories:
+BP(=O)(Nc1nc(NC2CCC(C(O)C(O)C(O)CO)C2)ncc1N)OCCOCCCC
+BP(=O)(OCC)OC(=O)C(CC(=O)N(C)C)C(=O)NO
+BP(=O)(OCC)OC(=O)CN(c1cc(Br)ccc1Br)c1ccc(Br)c(Br)c1Br
+B[PH](=O)(=NC)NC(=O)CSCCON=CC1CCCN1C(C)=O
+Bc1cccc(Nc2ncnc3c(Br)cccc23)c1
+Fine tuning...
+Mean value of predictions: 0.35912558
+Proportion of valid SMILES: 0.6152643102908977
+Sample trajectories:
+BP(=O)(OC(C)=O)c1ccc2ncnc(Nc3ccc(Br)cc3)c2c1
+BP(=O)(OCC)Oc1cc(Nc2nccc3ccccc23)cc(Br)c1F
+BP(=O)(OCC=C)c1cc2ccc(Br)cc2nc1Cl
+BP(=O)(OCCC(Br)(Br)Br)C(F)(F)F
+BP(=O)(OCCC=C)P(=O)(OCCS)C(=O)NC(C(N)=O)C(=O)N(C(=O)O)C(C)C(=O)O
+
+ 10 Training on 10998 replay instances...
+Setting threshold to 0.950000
+Policy gradient...
+Loss: 26.504278
+Reward: 3.695237
+Trajectories with max counts:
+80	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.41579834
+Proportion of valid SMILES: 0.5583359399436972
+Sample trajectories:
+BP(=O)(Br)C(=O)Nc1ccc(Br)c(Br)c1
+BP(=O)(NCCCC(F)F)Oc1cc(Br)cc2ncnc(Nc3ccc(F)c(Cl)c3)c12
+BP(=O)(NCCCl)OC(=O)C(F)(F)P(F)(F)(F)F
+BP(=O)(OCC1OC(=O)C(C)(C)C(O)C(O)C1O)Oc1cccc2ccccc12
+Bc1cccc(Nc2ncnc3cc(Br)ccc23)c1
+Policy gradient replay...
+Mean value of predictions: 0.33474615
+Proportion of valid SMILES: 0.6340625
+Sample trajectories:
+BP(=O)(C=O)OCC1OC(=O)OCC1F
+BP(=O)(NC(Cc1ccccc1)C(=O)O)C(=O)Nc1ccc(F)c(F)c1
+BP(=O)(NC(c1ccccc1)c1ccccc1)P(=O)(O)O
+BP(=O)(OCC)C(=O)Nc1cc(Br)c(Br)c(Br)c1
+BP(=O)(OCC=CI)C(=O)NC(=O)N(C)C(N)=O
+Fine tuning...
+Mean value of predictions: 0.38525677
+Proportion of valid SMILES: 0.6148796498905909
+Sample trajectories:
+BP(=O)(N(Cl)CCl)S(=O)(=O)c1ccc(F)cc1
+BP(=O)(NCCCCCCO)N(=O)=O
+BP(=O)(Nc1ccc(Br)c(Br)c1)C(=O)c1cccc(Br)c1
+BrCCOCCc1ccc2ncnc(Nc3ccc(Br)cc3)c2c1
+BrC[n+]1ccc2ccc(Br)cc2c1
+
+ 11 Training on 12469 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 28.108097
+Reward: 4.035222
+Trajectories with max counts:
+369	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.45781797
+Proportion of valid SMILES: 0.4496875
+Sample trajectories:
+BP(=O)(CCN(C(=O)CCl)c1cccc(Br)c1)Nc1ccccc1
+BP(=O)(NC(Cc1ccccc1)C(=O)Nc1cc2cccc(Br)c2s1)N(=O)=O
+BP(=O)(NN=C(F)CF)C(=O)NCc1ccc(F)cc1
+BP(=O)(Nc1ccc(Br)nc1)Nc1cccc(Br)c1
+BP(=O)(OCC)C(=O)Nc1ccc(Br)cn1
+Policy gradient replay...
+Mean value of predictions: 0.34117025
+Proportion of valid SMILES: 0.5928125
+Sample trajectories:
+BP(=O)(CCCCC(F)(F)F)n1cnc2c(NO)ncnc21
+BP(=O)(NO)C(=O)c1cccc(Br)c1
+BP(=O)(OCCCC)ON(=O)=O
+BP(=O)(OCCCCC)C(=O)Nc1cccc2c1-c1cc(Br)ccc12
+BP(=O)(c1ccccc1)N(NC(=O)Nc1ccc(Br)cc1)c1ccccc1
+Fine tuning...
+Mean value of predictions: 0.44207117
+Proportion of valid SMILES: 0.579375
+Sample trajectories:
+BP(=O)(Nc1ccc(Br)cc1)P(=O)(Oc1cc(Br)c(Br)c(I)c1)c1ccc(Br)cc1
+BP(=O)(Nc1ccc(Nc2cc(Br)cnc2-c2ccc(Br)cc2)cc1)C(F)(F)P(=O)(O)O
+Brc1cc(Br)c(Nc2ccc3ncnc(Nc4ccsc4)c3c2)cc1Br
+Brc1cc(Br)c2c(Nc3ccc(Br)[nH]3)ncnc2c1
+Brc1cc(Br)c2c(Nc3cccc(-c4ccccc4Br)c3)ncnc2c1
+
+ 12 Training on 14013 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 29.512287
+Reward: 4.531236
+Trajectories with max counts:
+199	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.5111495
+Proportion of valid SMILES: 0.3615625
+Sample trajectories:
+BP(=O)(C(=O)C(F)(F)Cl)N1CCN(c2ccc(F)cc2)CC1
+BP(=O)(NC(=O)CN(C)C(=O)Oc1ccc(Br)cc1)OC(C)C
+BP(=O)(NC(=O)NO)OCCCCC
+BP(=O)(NS(=O)(=O)c1ccc(Br)cc1)OCC=CBr
+BP(=O)(Nc1ccc2cc(Nc3ccc(Br)cc3)cc(Br)c2n1)c1cccc(Br)c2ncnc12
+Policy gradient replay...
+Mean value of predictions: 0.40010488
+Proportion of valid SMILES: 0.5959375
+Sample trajectories:
+BP(=O)(CC(=O)Nc1ccc(Br)cc1)NO
+BP(=O)(CC(=O)Nc1ccccc1Br)c1cccc(Br)c1
+BP(=O)(CCCC(=O)C(F)(F)F)NO
+BP(=O)(NO)c1ccccc1F
+BP(=O)(OCC)C(F)(F)F
+Fine tuning...
+Mean value of predictions: 0.47226888
+Proportion of valid SMILES: 0.5951859956236324
+Sample trajectories:
+BP(=O)(Nc1cccc(Cl)c1)c1cccc(Br)c1
+BrBr
+BrC=C(Br)Br
+Brc1cc(-c2ccccc2Br)ccc1Nc1ncnc2ccsc12
+Brc1cc(-c2ccccn2)c2ncnc(Nc3ccccc3)c2c1
+
+ 13 Training on 15650 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 28.937332
+Reward: 4.288449
+Trajectories with max counts:
+156	Brc1ccc(Nc2ncnc3ccc(Br)cc23)cc1
+Mean value of predictions: 0.4716933
+Proportion of valid SMILES: 0.4890625
+Sample trajectories:
+BP(=O)(N=[PH](B)(=O)OP(N)(=O)OP(=O)(O)OP(=O)(O)OCCl)OCCl
+BP(=O)(Nc1cc(Br)cc(Br)c1)C(=O)c1ccc(Br)cc1
+Br
+BrC(=NNc1ncnc2ccncc12)c1ccccn1
+BrC(Br)=Nc1c(Br)ccnc1Nc1c(Br)cccc1Br
+Policy gradient replay...
+Mean value of predictions: 0.46463564
+Proportion of valid SMILES: 0.5232885276648953
+Sample trajectories:
+BP(=O)(OCC)C(=O)Nc1ccc(Nc2ncnc3cc(Br)ccc23)cc1Cl
+BP(=O)(OCC)N1CCC(Br)=Nc2sc3c(c2C1)CCCC3
+BP(=O)(OCC)OCC
+BP(=O)(OCC1OC(c2ccc3ncnc(Nc4ccc(Br)cc4)c3c2)C(O)C(O)C1O)N(=O)=O
+BrC=Nc1ncnc2ccsc12
+Fine tuning...
+Mean value of predictions: 0.43437153
+Proportion of valid SMILES: 0.561875
+Sample trajectories:
+BP(=O)(COc1ccc(Br)cc1)Nc1cc2ccccc2nc2ccc(Br)c(Br)c2n1
+BP(=O)(NC(c1ccccc1)c1ccc(Br)cc1)P(=O)(C=C)OF
+BP(=O)(OCC1NC(NC(=N)C(C)(C)C(=O)OC)O1)P(=O)(O)O
+BrCCNC1=Nc2ncnc(Nc3cccc(Br)c3)c2C1
+BrCCNc1ccc2ncnc(Nc3ccc4[nH]cnc4c3)c2c1
+
+ 14 Training on 17320 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 27.155970
+Reward: 4.569948
+Trajectories with max counts:
+573	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.5157495
+Proportion of valid SMILES: 0.329375
+Sample trajectories:
+BP(=O)(Nc1cc(Br)c(Br)c(Br)c1)C(=O)c1ccc(Br)s1
+BP(=O)(Nc1ccc(Br)cc1)P(=O)(O)O
+BP(=O)(OCC)c1c(Br)c(Br)c(Br)c(Br)c1Br
+BP(=O)(OCCOc1ccc(Br)c(Br)c1Br)c1ccc(Br)cc1
+B[PH](c1cc(F)cc(Br)c1)=N(=O)OCOP(=O)(O)COP(=O)(O)OP(=O)(O)NP(=O)(O)Oc1ccc(Nc2ncnc3c(Br)ccc(Br)c23)cc1
+Policy gradient replay...
+Mean value of predictions: 0.4818561
+Proportion of valid SMILES: 0.599375
+Sample trajectories:
+Bc1ccc(Nc2ncnc3ccsc23)cc1
+BrC1=CC(Cn2c(-c3ccccc3Br)nc3ncnc(Nc4ccccc4)c32)CC1
+BrSc1cccc(Nc2ncnc3ccsc23)c1
+Brc1cc(Br)c2c(Nc3ccc(Br)s3)ncnc2c1
+Brc1cc(Nc2ncnc3cncnc23)cs1
+Fine tuning...
+Mean value of predictions: 0.47971177
+Proportion of valid SMILES: 0.5639262269459207
+Sample trajectories:
+BP(=O)(Nc1cccc(Nc2ccccc2Cl)c1)Nc1cc(Br)c(Br)c(Br)c1F
+BrC=C(Br)Br
+BrCCN1Cc2c(sc3ccccc23)Nc2c(Br)ncnc21
+Brc1cc(-c2cccnc2)c2ncnc(Nc3ccccc3)c2n1
+Brc1cc(Br)c(Br)c(Br)c1
+
+ 15 Training on 19094 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 29.277877
+Reward: 4.630902
+Trajectories with max counts:
+203	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.57289207
+Proportion of valid SMILES: 0.3965625
+Sample trajectories:
+BP(=O)(CCl)N(Cl)CCF
+BP(=O)(NCc1ccc(Br)cc1)C(N)=O
+BP(=O)(Nc1ccc2ncnc(Nc3ccsc3)c2n1)C(=O)O
+BP(=O)(O)C(=O)Nc1ccc(Br)cn1
+BP(=O)(OC(=O)Nc1ccc(Br)cc1)C1CCC(=O)N(CC(=O)Nc2ncnc3scc(Br)c23)C(C)(C)C1
+Policy gradient replay...
+Mean value of predictions: 0.4703825
+Proportion of valid SMILES: 0.571875
+Sample trajectories:
+BP(=O)(Br)C(F)(F)Cl
+BP(=O)(NCCCCCCC=CCCCCl)N(=O)=O
+BP(=O)(NCCCCCNC(=O)c1cc2ncnc(Nc3cccc(Br)c3)c2s1)P(=O)(Br)OP(=O)(O)O
+BP(=O)(Nc1ccc(Br)s1)C(=O)O
+BP(=O)(Nc1ccc2ncnc(Br)c2c1N1CCOCC1)C(=O)Nc1ccccc1F
+Fine tuning...
+Mean value of predictions: 0.55460906
+Proportion of valid SMILES: 0.5376411543287327
+Sample trajectories:
+BP(=O)(Cc1ccc(Nc2c(F)cc(F)cc2F)cc1)C(=O)NC(P(=O)(O)O)P(=O)(O)O
+BP(=O)(Nc1ccccc1Br)c1cc(Br)c(Br)c(Br)c1Br
+BP(=O)(OCCOCCn1cnc2c(NC=O)c(I)c(Br)c(Br)C(Br)(Br)c21)S(=O)(=O)O
+BrBr
+BrC=CC=COc1ccc(Nc2ncnc3c(Br)cc(Br)cc23)cc1
+
+ 16 Training on 21038 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 29.084477
+Reward: 4.743613
+Trajectories with max counts:
+132	Brc1ccc(Nc2ncnc3cc(Br)cc(Br)c23)cc1
+Mean value of predictions: 0.53730404
+Proportion of valid SMILES: 0.3989993746091307
+Sample trajectories:
+B=C(Br)N(CC(=O)Nc1ccc2c(c1)OCCO2)c1ccc(Br)cc1
+BP(=O)(CC(F)F)c1c(Br)nc(Nc2ncnc3c(Br)c(Br)c(Br)nc23)c(Br)c1Br
+BP(=O)(OCC)C(=O)N(C)CC(=O)NO
+Bc1cc(Nc2ncnc3cc(Br)c(Br)c(Br)c23)cc(Br)c1Br
+BrBr
+Policy gradient replay...
+Mean value of predictions: 0.4300858
+Proportion of valid SMILES: 0.6190625
+Sample trajectories:
+BP(=O)(Br)C(F)(F)F
+BP(=O)(OCC#CCNC(=O)C(CCC(=O)ON(CC=C)Nc1ccc(Br)cc1)C(=O)OCC)C(C)(C)C
+BP(=O)(OCC)C(Br)=C(Br)Br
+BrCCCCCCNc1ccc2ncnc(Nc3ccccc3)c2c1
+BrCc1cccc(Nc2ncnc3cc(Br)ccc23)c1
+Fine tuning...
+Mean value of predictions: 0.5015971
+Proportion of valid SMILES: 0.6065625
+Sample trajectories:
+Bc1ccc(Nc2ncnc3cc(Cl)ccc23)cc1
+Br
+BrC(=Nc1ncnc2cc(Br)cnc12)c1ccccc1
+BrC=CBr
+BrCc1cc2c(Nc3cccc(Br)c3)ncnc2s1
+
+ 17 Training on 22936 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 30.034723
+Reward: 4.369639
+Trajectories with max counts:
+32	CS(=O)(=O)Nc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.50950754
+Proportion of valid SMILES: 0.6409375
+Sample trajectories:
+BP(=O)(NCCCCCl)Nc1ccc(Nc2ncnc3cc(Br)c(Br)c(Br)c23)cc1
+Bc1ccc(Br)cc1Br
+BrC1=CNc2ncnc(Nc3ccc(Br)cc3)c2C1
+BrCc1cc2c(Nc3ccc(Br)cc3)ncnc2s1
+BrSc1ccccc1-c1ccc(Nc2ncnc3ccsc23)cc1
+Policy gradient replay...
+Mean value of predictions: 0.5355831
+Proportion of valid SMILES: 0.6300813008130082
+Sample trajectories:
+B[PH](=O)(=O)Nc1ccc2ncnc(Nc3ccc(Br)cc3Cl)c2c1
+Bc1ccc(Nc2ncnc3c(Br)c(Br)c(Br)cc23)cc1Br
+Brc1[nH]c2ncnc(Nc3ccccc3)c2c1-c1ccccc1
+Brc1c[nH]c(Nc2ncnc3cc(Br)nc4cc(Br)c(Br)cc4nc23)c1
+Brc1cc(-c2cccs2)cnn1
+Fine tuning...
+Mean value of predictions: 0.5277778
+Proportion of valid SMILES: 0.6303939962476548
+Sample trajectories:
+BP(=O)(NCc1ccc(Br)cc1)c1cc(Nc2ccc(Br)c(Br)c2)cc(Br)c1Br
+BP(=O)(OCC)C(=O)Nc1cccc(Nc2ncnc3cc(Br)ccc23)c1
+BrCc1cc(Br)cc(Nc2ncnc3c(Nc4ccccc4)c(Br)c23)c1
+Brc1cc(Br)c2c(Nc3ccc(Br)c(Br)c3)ncnc2c1
+Brc1cc(Br)c2c(Nc3ccccc3)ncnc2c1Br
+
+ 18 Training on 25330 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 31.369392
+Reward: 4.496633
+Trajectories with max counts:
+96	Brc1ccc(Nc2ncnc3ccsc23)cc1
+Mean value of predictions: 0.44957462
+Proportion of valid SMILES: 0.5509375
+Sample trajectories:
+BP(=O)(NC(=O)CBr)OC(C)Cl
+BP(=O)(NCc1ccc(Cl)c(Cl)c1)C(=O)Nc1ccccc1Br
+BP(=O)(NO)c1ccc(Nc2ncnc3cc(Br)c(Br)cc23)cc1
+BP(=O)(OCC=CC=C(Cl)P(=O)(O)O)c1ccccc1
+BP(=O)(OCCC)C(I)=Cc1ccc(Br)cc1Br
+Policy gradient replay...
+Mean value of predictions: 0.55993557
+Proportion of valid SMILES: 0.5822388993120701
+Sample trajectories:
+BrC1=Nc2c(Br)cc(Br)cc2OC1c1cccs1
+Brc1cc(Br)c(-c2ncnc3ncnc(Nc4ccccc4)c23)cc1Br
+Brc1cc(Br)c(Nc2ncnc3ccsc23)c(Br)c1
+Brc1cc(Br)c2c(Nc3ccc(Br)c(Br)c3)ncnc2c1
+Brc1cc(Br)c2ncnc(Nc3cc(Br)c(Br)cc3Br)c2c1
+Fine tuning...
+Mean value of predictions: 0.5404774
+Proportion of valid SMILES: 0.6160826032540676
+Sample trajectories:
+Bc1cccc(Nc2ncnc3ccc(F)c(Br)c23)c1
+BrOc1ccc(Br)cc1Nc1ncnc2ccnc(Nc3ccccc3)c12
+Brc1c(CCCNc2cnccn2)cnc2ncnnc12
+Brc1cc(-c2cc(Nc3cccs3)ncn2)c2ncnc(Nc3ccccc3)c2c1OCCCN1CCOCC1
+Brc1cc(Br)c(Br)c(Nc2cccc(Nc3csc(Nc4ccccc4Br)c3)n2)c1
+
+ 19 Training on 27559 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 32.042817
+Reward: 4.637717
+Trajectories with max counts:
+137	Brc1ccc(Nc2ncnc3ccc(Br)cc23)cc1
+Mean value of predictions: 0.5950617
+Proportion of valid SMILES: 0.38004379105411323
+Sample trajectories:
+BP(=O)(Nc1ccc(Br)c(Br)c1)P(=O)(Oc1ccc(Br)cc1)Oc1ccc(F)cc1F
+BP(=O)(Nc1ccc(F)c(F)c1)Nc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1F
+BP(=O)(Nc1ccc2ncnc(Nc3ccc(Br)cc3)c2c1Br)N(=O)=O
+BP(=O)(Nc1ccc2ncnc(Nc3ccccc3)c2n1)C(F)(F)F
+BP(=O)(Oc1cc2ncnc(Nc3ccc(Br)c(Br)c3F)c2s1)C1CC1
+Policy gradient replay...
+Mean value of predictions: 0.5674042
+Proportion of valid SMILES: 0.5790625
+Sample trajectories:
+BP(=O)(CCCCC(=O)Nc1ccc(Br)cc1F)OCC
+Brc1cc(Br)c(-c2cccc3ncnc(Nc4ccccc4)c23)c(Nc2ncnc3ccc(Br)cc23)c1
+Brc1cc(Br)c(-c2nc3[nH]ccc3nc2Nc2ccc(Br)c(Br)c2)c(Br)c1
+Brc1cc(Br)c(-c2ncccc2-c2ccc(Nc3nncn3-c3cscn3)cc2)c(Br)c1Br
+Brc1cc(Br)c(Br)c(Br)c1Br
+Fine tuning...
+Mean value of predictions: 0.5422876
+Proportion of valid SMILES: 0.5958111909971866
+Sample trajectories:
+BP(=O)(NO)c1ccc2ncnc(Nc3ccc(Br)c(Br)c3)c2c1
+BP(=O)(Nc1cc(Br)c(Br)cc1Br)Oc1cc(Br)c(Br)c(Br)c1Br
+Bc1ccc(Br)cc1-c1cc(Br)c(Br)cc1-c1ccc2ncnc(Nc3ccc(Br)c(Br)c3)c2c1
+Br
+BrC=C(Br)c1cccc(Nc2ncnc3c(Br)c(Br)ccc23)c1
+
+ 20 Training on 29795 replay instances...
+Setting threshold to 1.000000
+Policy gradient...
+Loss: 32.018814
+Reward: 4.870235
+Trajectories with max counts:
+220	Brc1ccc(Nc2ncnc3ccc(Br)cc23)cc1
+Mean value of predictions: 0.57482076
+Proportion of valid SMILES: 0.39243277048155095
+Sample trajectories:
+BP(=O)(CCCCCC(=O)NCCO)NCCCCCN
+BP(=O)(N1CCN(CCO)CC1)P(=O)(O)C(=O)N1CCC(F)(F)C1
+BP(=O)(NS(=O)(=O)c1ccc(Br)cc1)OCC
+BP(=O)(Nc1ccc(Br)c(Br)c1)Oc1cc2ncnc(Nc3cccc(Br)c3)c2s1
+BP(=O)(Nc1ccc(Br)nc1)P(=O)(Oc1ccccc1)Oc1ccc(Br)cc1
+Policy gradient replay...
+Mean value of predictions: 0.44829786
+Proportion of valid SMILES: 0.5875
+Sample trajectories:
+BP(=O)(C(=O)CN)P(=O)(NC(=O)OC(C)(C)C)N(O)CO
+BP(=O)(NCCO)c1ccccc1Br
+BP(=O)(NO)C(=O)Nc1cccc(Br)c1
+Bc1ccc(Nc2ncnc3ccccc23)cc1
+BrBr
+Fine tuning...
+Mean value of predictions: 0.5623309
+Proportion of valid SMILES: 0.6011886143259305
+Sample trajectories:
+BP(=O)(CCCNc1ccccc1)N1CCCN(c2ccccc2)C1=O
+BP(=O)(NO)N(O)CCCN(C(=O)NC)C(=O)OC
+BP(=O)(OCC)N(C(=O)C[N+](C)(C)C)c1ccc(NS(=O)(=O)c2c(F)c(F)c(F)c(F)c2F)cc1F
+BP(=O)(OCC)OC(=O)CCCCCCCl
+BrC#Cc1sc2ncnc(Nc3ccc(Br)c(Br)c3)c2c1Br
+
+Mean Internal Similarity: 0.46504465742006407
+Std Internal Similarity: 0.09184207649747274
+Mean External Similarity: 0.41731942333425687
+Std External Similarity: 0.07488329829194812
+Mean MolWt: 417.6041743142146
+Std MolWt: 101.37369234978017
+Effect MolWt: -0.7977263244018464
+Mean MolLogP: 4.76530378054863
+Std MolLogP: 1.4132808816768758
+Effect MolLogP: 0.0343633900158495
+<IPython.core.display.HTML object>
+Percentage of novel scaffolds: 97.304582% (1083 / 1113)
+<IPython.core.display.HTML object>
+Metrics for {'n_iterations': 20, 'n_policy': 15, 'n_policy_replay': 10, 'n_fine_tune': 20, 'seed': 3, 'replay_data_path': '../data/gen_actives.smi', 'primed_path': '../checkpoints/generator/checkpoint_batch_training'}:
+{'duration': 7527.605005741119, 'valid_fraction': 0.5024387193596799, 'active_fraction': 0.49906658369632856, 'mean_internal_similarity': 0.46504465742006407, 'std_internal_similarity': 0.09184207649747274, 'mean_external_similarity': 0.41731942333425687, 'std_external_similarity': 0.07488329829194812, 'mean_MolWt': 417.6041743142146, 'std_MolWt': 101.37369234978017, 'effect_MolWt': -0.7977263244018464, 'mean_MolLogP': 4.76530378054863, 'std_MolLogP': 1.4132808816768758, 'effect_MolLogP': 0.0343633900158495, 'generated_scaffolds': 1113, 'novel_scaffolds': 1083, 'novel_fraction': 0.9730458221024259, 'save_path': '../logs/timelapse_s3-20.smi'}

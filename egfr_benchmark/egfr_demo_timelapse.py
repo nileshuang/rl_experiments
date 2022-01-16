@@ -24,7 +24,13 @@ from reinforcement import Reinforcement
 import time
 from analysis_utils import compare_libraries
 
-# Consider: moving more code to module scope
+
+gen_data_path = '../data/chembl_22_clean_1576904_sorted_std_final.smi'
+tokens = [' ', '<', '>', '#', '%', ')', '(', '+', '-', '/', '.', '1', '0', '3', '2', '5', '4', '7',
+          '6', '9', '8', '=', 'a', '@', 'C', 'B', 'F', 'I', 'H', 'O', 'N', 'P', 'S', '[', ']',
+          '\\', 'c', 'e', 'i', 'l', 'o', 'n', 'p', 's', 'r']
+gen_data = GeneratorData(gen_data_path, delimiter='\t',
+                         cols_to_read=[0], keep_header=True, tokens=tokens)
 
 # Util functions
 def estimate_and_update(generator, predictor, n_to_generate, threshold=None, batch_size=16,
@@ -102,14 +108,6 @@ def main(n_iterations=20,
     if seed is not None:
         np.random.seed(seed)
         torch.manual_seed(seed)
-
-    gen_data_path = '../data/chembl_22_clean_1576904_sorted_std_final.smi'
-    tokens = [' ', '<', '>', '#', '%', ')', '(', '+', '-', '/', '.', '1', '0', '3', '2', '5', '4', '7',
-              '6', '9', '8', '=', 'a', '@', 'C', 'B', 'F', 'I', 'H', 'O', 'N', 'P', 'S', '[', ']',
-              '\\', 'c', 'e', 'i', 'l', 'o', 'n', 'p', 's', 'r']
-    global gen_data;
-    gen_data = GeneratorData(gen_data_path, delimiter='\t',
-                             cols_to_read=[0], keep_header=True, tokens=tokens)
 
     # Setting up the generative model
     hidden_size = 1500
